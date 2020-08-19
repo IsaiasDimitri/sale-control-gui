@@ -1,0 +1,1 @@
+status_venda = ("Concluida", "Aguardando Confirmação", "Cancelada")
