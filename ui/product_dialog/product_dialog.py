@@ -19,7 +19,7 @@ from PySide2.QtWidgets import *
 class Ui_Dialog(object):
     def setupUi(self, Dialog):
         if not Dialog.objectName():
-            Dialog.setObjectName(u"Estoque")
+            Dialog.setObjectName(u"Dialog")
         Dialog.resize(977, 603)
         self.verticalLayout = QVBoxLayout(Dialog)
         self.verticalLayout.setSpacing(0)
