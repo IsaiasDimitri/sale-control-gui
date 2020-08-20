@@ -72,7 +72,7 @@
        </widget>
       </item>
       <item row="6" column="1">
-       <widget class="QTextEdit" name="textEdit_bairro_2">
+       <widget class="QTextEdit" name="textEdit_bairro">
         <property name="maximumSize">
          <size>
           <width>300</width>
@@ -103,7 +103,7 @@
        </widget>
       </item>
       <item row="1" column="1">
-       <widget class="QTextEdit" name="textEdit_email_2">
+       <widget class="QTextEdit" name="textEdit_email">
         <property name="maximumSize">
          <size>
           <width>300</width>
@@ -116,7 +116,7 @@
        </widget>
       </item>
       <item row="8" column="1">
-       <widget class="QTextEdit" name="textEdit_complemento_2">
+       <widget class="QTextEdit" name="textEdit_complemento">
         <property name="maximumSize">
          <size>
           <width>300</width>
@@ -129,7 +129,7 @@
        </widget>
       </item>
       <item row="4" column="1">
-       <widget class="QTextEdit" name="textEdit_cep_2">
+       <widget class="QTextEdit" name="textEdit_cep">
         <property name="maximumSize">
          <size>
           <width>300</width>
@@ -142,7 +142,7 @@
        </widget>
       </item>
       <item row="7" column="1">
-       <widget class="QTextEdit" name="textEdit_cidade_2">
+       <widget class="QTextEdit" name="textEdit_cidade">
         <property name="maximumSize">
          <size>
           <width>300</width>
@@ -155,7 +155,7 @@
        </widget>
       </item>
       <item row="3" column="1">
-       <widget class="QTextEdit" name="textEdit_telefone_alt_2">
+       <widget class="QTextEdit" name="textEdit_telefone_alt">
         <property name="maximumSize">
          <size>
           <width>300</width>
@@ -210,7 +210,7 @@
        </widget>
       </item>
       <item row="5" column="1">
-       <widget class="QTextEdit" name="textEdit_rua_2">
+       <widget class="QTextEdit" name="textEdit_rua">
         <property name="maximumSize">
          <size>
           <width>300</width>
@@ -223,7 +223,7 @@
        </widget>
       </item>
       <item row="2" column="1">
-       <widget class="QTextEdit" name="textEdit_telefone_2">
+       <widget class="QTextEdit" name="textEdit_telefone">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
           <horstretch>0</horstretch>
@@ -307,7 +307,7 @@
        </widget>
       </item>
       <item row="6" column="1">
-       <widget class="QTextEdit" name="textEdit_cpf_3">
+       <widget class="QTextEdit" name="textEdit_cpf_cnpj">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
           <horstretch>0</horstretch>
@@ -395,7 +395,10 @@
        </widget>
       </item>
       <item row="8" column="1">
-       <widget class="QPushButton" name="pushButton_selecionar_data_entrega_3">
+       <widget class="QPushButton" name="pushButton_selecionar_data">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
         <property name="minimumSize">
          <size>
           <width>0</width>
@@ -408,12 +411,15 @@
        </widget>
       </item>
       <item row="3" column="1">
-       <widget class="QTextEdit" name="textEdit_cliente_3">
+       <widget class="QTextEdit" name="textEdit_cliente">
         <property name="maximumSize">
          <size>
           <width>300</width>
           <height>30</height>
          </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::StrongFocus</enum>
         </property>
         <property name="styleSheet">
          <string notr="true">background-color: rgb(255, 255, 255);</string>
@@ -421,14 +427,14 @@
        </widget>
       </item>
       <item row="8" column="0">
-       <widget class="QLabel" name="label_selecionar_data_entrega_3">
+       <widget class="QLabel" name="label_selecionar_data">
         <property name="font">
          <font>
           <pointsize>12</pointsize>
          </font>
         </property>
         <property name="text">
-         <string>Data Nascimento</string>
+         <string>Data Nasc.:</string>
         </property>
        </widget>
       </item>
@@ -514,7 +520,7 @@
        <number>30</number>
       </property>
       <item>
-       <widget class="QPushButton" name="pushButton_cancelar_2">
+       <widget class="QPushButton" name="pushButton_cancelar">
         <property name="minimumSize">
          <size>
           <width>0</width>
@@ -533,7 +539,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_cadastrar_2">
+       <widget class="QPushButton" name="pushButton_cadastrar">
         <property name="minimumSize">
          <size>
           <width>0</width>

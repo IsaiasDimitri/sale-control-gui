@@ -1,7 +1,9 @@
 from .base_model import BaseModel
 
 class Cliente(BaseModel):
-    _VALID_KEYWORDS = ['nome', 'cpf', 'cnpj', 'email', 'telefone', 'data_criacao']
+    _VALID_KEYWORDS = [
+        'nome', 'cpf/cnpj', 'email', 'telefone', 'telefone_alt', 
+        'endereco', 'data_criacao']
     def __init__(self, **kwargs):
         super().__init__(table= "clientes")
         for k, v in kwargs.items():

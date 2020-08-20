@@ -10,5 +10,5 @@ class Podutos(QDialog):
         self.setup_func()
     
     def setup_func(self):
-        # Popup Buttons
-        pass
+        ui = self.ui
+        # Buttons

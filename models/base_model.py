@@ -31,5 +31,8 @@ class BaseModel:
             result = DB().update(self.table, query, new_values)
             return True if result > 0 else False
         return False
+        
+    def select_all(self):
+        return DB().select_all(self.table)
 
 

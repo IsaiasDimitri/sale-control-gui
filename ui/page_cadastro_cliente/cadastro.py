@@ -55,12 +55,12 @@ class Ui_page_cadastro_cliente_1(object):
 
         self.gridLayout_9.addWidget(self.label_16, 7, 0, 1, 1)
 
-        self.textEdit_bairro_2 = QTextEdit(self.frame_cliente_contato_form)
-        self.textEdit_bairro_2.setObjectName(u"textEdit_bairro_2")
-        self.textEdit_bairro_2.setMaximumSize(QSize(300, 30))
-        self.textEdit_bairro_2.setStyleSheet(u"background-color: rgb(255, 255, 255);")
+        self.textEdit_bairro = QTextEdit(self.frame_cliente_contato_form)
+        self.textEdit_bairro.setObjectName(u"textEdit_bairro")
+        self.textEdit_bairro.setMaximumSize(QSize(300, 30))
+        self.textEdit_bairro.setStyleSheet(u"background-color: rgb(255, 255, 255);")
 
-        self.gridLayout_9.addWidget(self.textEdit_bairro_2, 6, 1, 1, 1)
+        self.gridLayout_9.addWidget(self.textEdit_bairro, 6, 1, 1, 1)
 
         self.label_17 = QLabel(self.frame_cliente_contato_form)
         self.label_17.setObjectName(u"label_17")
@@ -69,40 +69,40 @@ class Ui_page_cadastro_cliente_1(object):
 
         self.gridLayout_9.addWidget(self.label_17, 3, 0, 1, 1)
 
-        self.textEdit_email_2 = QTextEdit(self.frame_cliente_contato_form)
-        self.textEdit_email_2.setObjectName(u"textEdit_email_2")
-        self.textEdit_email_2.setMaximumSize(QSize(300, 30))
-        self.textEdit_email_2.setStyleSheet(u"background-color: rgb(255, 255, 255);")
+        self.textEdit_email = QTextEdit(self.frame_cliente_contato_form)
+        self.textEdit_email.setObjectName(u"textEdit_email")
+        self.textEdit_email.setMaximumSize(QSize(300, 30))
+        self.textEdit_email.setStyleSheet(u"background-color: rgb(255, 255, 255);")
 
-        self.gridLayout_9.addWidget(self.textEdit_email_2, 1, 1, 1, 1)
+        self.gridLayout_9.addWidget(self.textEdit_email, 1, 1, 1, 1)
 
-        self.textEdit_complemento_2 = QTextEdit(self.frame_cliente_contato_form)
-        self.textEdit_complemento_2.setObjectName(u"textEdit_complemento_2")
-        self.textEdit_complemento_2.setMaximumSize(QSize(300, 30))
-        self.textEdit_complemento_2.setStyleSheet(u"background-color: rgb(255, 255, 255);")
+        self.textEdit_complemento = QTextEdit(self.frame_cliente_contato_form)
+        self.textEdit_complemento.setObjectName(u"textEdit_complemento")
+        self.textEdit_complemento.setMaximumSize(QSize(300, 30))
+        self.textEdit_complemento.setStyleSheet(u"background-color: rgb(255, 255, 255);")
 
-        self.gridLayout_9.addWidget(self.textEdit_complemento_2, 8, 1, 1, 1)
+        self.gridLayout_9.addWidget(self.textEdit_complemento, 8, 1, 1, 1)
 
-        self.textEdit_cep_2 = QTextEdit(self.frame_cliente_contato_form)
-        self.textEdit_cep_2.setObjectName(u"textEdit_cep_2")
-        self.textEdit_cep_2.setMaximumSize(QSize(300, 30))
-        self.textEdit_cep_2.setStyleSheet(u"background-color: rgb(255, 255, 255);")
+        self.textEdit_cep = QTextEdit(self.frame_cliente_contato_form)
+        self.textEdit_cep.setObjectName(u"textEdit_cep")
+        self.textEdit_cep.setMaximumSize(QSize(300, 30))
+        self.textEdit_cep.setStyleSheet(u"background-color: rgb(255, 255, 255);")
 
-        self.gridLayout_9.addWidget(self.textEdit_cep_2, 4, 1, 1, 1)
+        self.gridLayout_9.addWidget(self.textEdit_cep, 4, 1, 1, 1)
 
-        self.textEdit_cidade_2 = QTextEdit(self.frame_cliente_contato_form)
-        self.textEdit_cidade_2.setObjectName(u"textEdit_cidade_2")
-        self.textEdit_cidade_2.setMaximumSize(QSize(300, 30))
-        self.textEdit_cidade_2.setStyleSheet(u"background-color: rgb(255, 255, 255);")
+        self.textEdit_cidade = QTextEdit(self.frame_cliente_contato_form)
+        self.textEdit_cidade.setObjectName(u"textEdit_cidade")
+        self.textEdit_cidade.setMaximumSize(QSize(300, 30))
+        self.textEdit_cidade.setStyleSheet(u"background-color: rgb(255, 255, 255);")
 
-        self.gridLayout_9.addWidget(self.textEdit_cidade_2, 7, 1, 1, 1)
+        self.gridLayout_9.addWidget(self.textEdit_cidade, 7, 1, 1, 1)
 
-        self.textEdit_telefone_alt_2 = QTextEdit(self.frame_cliente_contato_form)
-        self.textEdit_telefone_alt_2.setObjectName(u"textEdit_telefone_alt_2")
-        self.textEdit_telefone_alt_2.setMaximumSize(QSize(300, 30))
-        self.textEdit_telefone_alt_2.setStyleSheet(u"background-color: rgb(255, 255, 255);")
+        self.textEdit_telefone_alt = QTextEdit(self.frame_cliente_contato_form)
+        self.textEdit_telefone_alt.setObjectName(u"textEdit_telefone_alt")
+        self.textEdit_telefone_alt.setMaximumSize(QSize(300, 30))
+        self.textEdit_telefone_alt.setStyleSheet(u"background-color: rgb(255, 255, 255);")
 
-        self.gridLayout_9.addWidget(self.textEdit_telefone_alt_2, 3, 1, 1, 1)
+        self.gridLayout_9.addWidget(self.textEdit_telefone_alt, 3, 1, 1, 1)
 
         self.label_18 = QLabel(self.frame_cliente_contato_form)
         self.label_18.setObjectName(u"label_18")
@@ -123,24 +123,24 @@ class Ui_page_cadastro_cliente_1(object):
 
         self.gridLayout_9.addWidget(self.label_20, 4, 0, 1, 1)
 
-        self.textEdit_rua_2 = QTextEdit(self.frame_cliente_contato_form)
-        self.textEdit_rua_2.setObjectName(u"textEdit_rua_2")
-        self.textEdit_rua_2.setMaximumSize(QSize(300, 30))
-        self.textEdit_rua_2.setStyleSheet(u"background-color: rgb(255, 255, 255);")
+        self.textEdit_rua = QTextEdit(self.frame_cliente_contato_form)
+        self.textEdit_rua.setObjectName(u"textEdit_rua")
+        self.textEdit_rua.setMaximumSize(QSize(300, 30))
+        self.textEdit_rua.setStyleSheet(u"background-color: rgb(255, 255, 255);")
 
-        self.gridLayout_9.addWidget(self.textEdit_rua_2, 5, 1, 1, 1)
+        self.gridLayout_9.addWidget(self.textEdit_rua, 5, 1, 1, 1)
 
-        self.textEdit_telefone_2 = QTextEdit(self.frame_cliente_contato_form)
-        self.textEdit_telefone_2.setObjectName(u"textEdit_telefone_2")
+        self.textEdit_telefone = QTextEdit(self.frame_cliente_contato_form)
+        self.textEdit_telefone.setObjectName(u"textEdit_telefone")
         sizePolicy1 = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.MinimumExpanding)
         sizePolicy1.setHorizontalStretch(0)
         sizePolicy1.setVerticalStretch(0)
-        sizePolicy1.setHeightForWidth(self.textEdit_telefone_2.sizePolicy().hasHeightForWidth())
-        self.textEdit_telefone_2.setSizePolicy(sizePolicy1)
-        self.textEdit_telefone_2.setMaximumSize(QSize(300, 30))
-        self.textEdit_telefone_2.setStyleSheet(u"background-color: rgb(255, 255, 255);")
+        sizePolicy1.setHeightForWidth(self.textEdit_telefone.sizePolicy().hasHeightForWidth())
+        self.textEdit_telefone.setSizePolicy(sizePolicy1)
+        self.textEdit_telefone.setMaximumSize(QSize(300, 30))
+        self.textEdit_telefone.setStyleSheet(u"background-color: rgb(255, 255, 255);")
 
-        self.gridLayout_9.addWidget(self.textEdit_telefone_2, 2, 1, 1, 1)
+        self.gridLayout_9.addWidget(self.textEdit_telefone, 2, 1, 1, 1)
 
         self.label_21 = QLabel(self.frame_cliente_contato_form)
         self.label_21.setObjectName(u"label_21")
@@ -180,14 +180,14 @@ class Ui_page_cadastro_cliente_1(object):
 
         self.gridLayout_10.addWidget(self.label_23, 0, 0, 1, 1)
 
-        self.textEdit_cpf_3 = QTextEdit(self.frame_cliente_dados_gerais_form)
-        self.textEdit_cpf_3.setObjectName(u"textEdit_cpf_3")
-        sizePolicy1.setHeightForWidth(self.textEdit_cpf_3.sizePolicy().hasHeightForWidth())
-        self.textEdit_cpf_3.setSizePolicy(sizePolicy1)
-        self.textEdit_cpf_3.setMaximumSize(QSize(300, 30))
-        self.textEdit_cpf_3.setStyleSheet(u"background-color: rgb(255, 255, 255);")
+        self.textEdit_cpf_cnpj = QTextEdit(self.frame_cliente_dados_gerais_form)
+        self.textEdit_cpf_cnpj.setObjectName(u"textEdit_cpf_cnpj")
+        sizePolicy1.setHeightForWidth(self.textEdit_cpf_cnpj.sizePolicy().hasHeightForWidth())
+        self.textEdit_cpf_cnpj.setSizePolicy(sizePolicy1)
+        self.textEdit_cpf_cnpj.setMaximumSize(QSize(300, 30))
+        self.textEdit_cpf_cnpj.setStyleSheet(u"background-color: rgb(255, 255, 255);")
 
-        self.gridLayout_10.addWidget(self.textEdit_cpf_3, 6, 1, 1, 1)
+        self.gridLayout_10.addWidget(self.textEdit_cpf_cnpj, 6, 1, 1, 1)
 
         self.label_cpf_cnpj_3 = QLabel(self.frame_cliente_dados_gerais_form)
         self.label_cpf_cnpj_3.setObjectName(u"label_cpf_cnpj_3")
@@ -223,24 +223,26 @@ class Ui_page_cadastro_cliente_1(object):
 
         self.gridLayout_10.addWidget(self.frame_tipo_pessoa_2, 1, 0, 1, 3, Qt.AlignLeft|Qt.AlignTop)
 
-        self.pushButton_selecionar_data_entrega_3 = QPushButton(self.frame_cliente_dados_gerais_form)
-        self.pushButton_selecionar_data_entrega_3.setObjectName(u"pushButton_selecionar_data_entrega_3")
-        self.pushButton_selecionar_data_entrega_3.setMinimumSize(QSize(0, 30))
+        self.pushButton_selecionar_data = QPushButton(self.frame_cliente_dados_gerais_form)
+        self.pushButton_selecionar_data.setObjectName(u"pushButton_selecionar_data")
+        self.pushButton_selecionar_data.setEnabled(True)
+        self.pushButton_selecionar_data.setMinimumSize(QSize(0, 30))
 
-        self.gridLayout_10.addWidget(self.pushButton_selecionar_data_entrega_3, 8, 1, 1, 1)
+        self.gridLayout_10.addWidget(self.pushButton_selecionar_data, 8, 1, 1, 1)
 
-        self.textEdit_cliente_3 = QTextEdit(self.frame_cliente_dados_gerais_form)
-        self.textEdit_cliente_3.setObjectName(u"textEdit_cliente_3")
-        self.textEdit_cliente_3.setMaximumSize(QSize(300, 30))
-        self.textEdit_cliente_3.setStyleSheet(u"background-color: rgb(255, 255, 255);")
+        self.textEdit_cliente = QTextEdit(self.frame_cliente_dados_gerais_form)
+        self.textEdit_cliente.setObjectName(u"textEdit_cliente")
+        self.textEdit_cliente.setMaximumSize(QSize(300, 30))
+        self.textEdit_cliente.setFocusPolicy(Qt.StrongFocus)
+        self.textEdit_cliente.setStyleSheet(u"background-color: rgb(255, 255, 255);")
 
-        self.gridLayout_10.addWidget(self.textEdit_cliente_3, 3, 1, 1, 1)
+        self.gridLayout_10.addWidget(self.textEdit_cliente, 3, 1, 1, 1)
 
-        self.label_selecionar_data_entrega_3 = QLabel(self.frame_cliente_dados_gerais_form)
-        self.label_selecionar_data_entrega_3.setObjectName(u"label_selecionar_data_entrega_3")
-        self.label_selecionar_data_entrega_3.setFont(font)
+        self.label_selecionar_data = QLabel(self.frame_cliente_dados_gerais_form)
+        self.label_selecionar_data.setObjectName(u"label_selecionar_data")
+        self.label_selecionar_data.setFont(font)
 
-        self.gridLayout_10.addWidget(self.label_selecionar_data_entrega_3, 8, 0, 1, 1)
+        self.gridLayout_10.addWidget(self.label_selecionar_data, 8, 0, 1, 1)
 
 
         self.gridLayout.addWidget(self.frame_cliente_dados_gerais_form, 2, 0, 1, 1, Qt.AlignLeft|Qt.AlignTop)
@@ -287,19 +289,19 @@ class Ui_page_cadastro_cliente_1(object):
         self.horizontalLayout_13 = QHBoxLayout(self.frame_button_actions_cadastro_2)
         self.horizontalLayout_13.setSpacing(30)
         self.horizontalLayout_13.setObjectName(u"horizontalLayout_13")
-        self.pushButton_cancelar_2 = QPushButton(self.frame_button_actions_cadastro_2)
-        self.pushButton_cancelar_2.setObjectName(u"pushButton_cancelar_2")
-        self.pushButton_cancelar_2.setMinimumSize(QSize(0, 30))
-        self.pushButton_cancelar_2.setMaximumSize(QSize(16777215, 30))
+        self.pushButton_cancelar = QPushButton(self.frame_button_actions_cadastro_2)
+        self.pushButton_cancelar.setObjectName(u"pushButton_cancelar")
+        self.pushButton_cancelar.setMinimumSize(QSize(0, 30))
+        self.pushButton_cancelar.setMaximumSize(QSize(16777215, 30))
 
-        self.horizontalLayout_13.addWidget(self.pushButton_cancelar_2)
+        self.horizontalLayout_13.addWidget(self.pushButton_cancelar)
 
-        self.pushButton_cadastrar_2 = QPushButton(self.frame_button_actions_cadastro_2)
-        self.pushButton_cadastrar_2.setObjectName(u"pushButton_cadastrar_2")
-        self.pushButton_cadastrar_2.setMinimumSize(QSize(0, 30))
-        self.pushButton_cadastrar_2.setMaximumSize(QSize(16777215, 30))
+        self.pushButton_cadastrar = QPushButton(self.frame_button_actions_cadastro_2)
+        self.pushButton_cadastrar.setObjectName(u"pushButton_cadastrar")
+        self.pushButton_cadastrar.setMinimumSize(QSize(0, 30))
+        self.pushButton_cadastrar.setMaximumSize(QSize(16777215, 30))
 
-        self.horizontalLayout_13.addWidget(self.pushButton_cadastrar_2)
+        self.horizontalLayout_13.addWidget(self.pushButton_cadastrar)
 
 
         self.gridLayout.addWidget(self.frame_button_actions_cadastro_2, 4, 1, 1, 1, Qt.AlignRight|Qt.AlignBottom)
@@ -327,10 +329,10 @@ class Ui_page_cadastro_cliente_1(object):
         self.radioButton_pf_3.setText(QCoreApplication.translate("page_cadastro_cliente_1", u"Pessoa F\u00edsica", None))
         self.radioButton_pj_3.setText(QCoreApplication.translate("page_cadastro_cliente_1", u"Pessoa Jur\u00eddica", None))
         self.radioButton_outro_3.setText(QCoreApplication.translate("page_cadastro_cliente_1", u"Outro", None))
-        self.pushButton_selecionar_data_entrega_3.setText(QCoreApplication.translate("page_cadastro_cliente_1", u"Escolher Data", None))
-        self.label_selecionar_data_entrega_3.setText(QCoreApplication.translate("page_cadastro_cliente_1", u"Data Nascimento", None))
+        self.pushButton_selecionar_data.setText(QCoreApplication.translate("page_cadastro_cliente_1", u"Escolher Data", None))
+        self.label_selecionar_data.setText(QCoreApplication.translate("page_cadastro_cliente_1", u"Data Nascimento", None))
         self.label_titulo_pagina_4.setText(QCoreApplication.translate("page_cadastro_cliente_1", u"<html><head/><body><p align=\"center\"><span style=\" font-size:20pt; font-weight:600;\">Cadastro de Cliente</span></p></body></html>", None))
-        self.pushButton_cancelar_2.setText(QCoreApplication.translate("page_cadastro_cliente_1", u"Cancelar", None))
-        self.pushButton_cadastrar_2.setText(QCoreApplication.translate("page_cadastro_cliente_1", u"Cadastrar", None))
+        self.pushButton_cancelar.setText(QCoreApplication.translate("page_cadastro_cliente_1", u"Cancelar", None))
+        self.pushButton_cadastrar.setText(QCoreApplication.translate("page_cadastro_cliente_1", u"Cadastrar", None))
     # retranslateUi
 
