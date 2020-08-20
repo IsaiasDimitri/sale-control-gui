@@ -8,7 +8,7 @@ Docker
 Python 3  
 Virtualenv (recommended)  
 ### #Instalation
-> May you need use "sudo" to run some commnads.
+> May you need use "sudo" to run some commnads.  
 With docker installed, run
 ```
 docker run -d -p 27017:27017 -v --name mongo mongo:latest
