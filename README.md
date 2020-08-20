@@ -1,7 +1,9 @@
 ## Simple GUI to manage sales.
 > Currently in development.
 
-I'm using MongoDB from docker, but in the future I'll extend to other relacional database.
+I'm using MongoDB from docker, but in the future I'll extend to other  databases.  
+This steps cover app installation in Ubuntu 20.04, but the app should running in 
+Windows too if you install all correctly.
 
 ###  #Requeriments
 Docker  
@@ -9,7 +11,8 @@ Python 3
 Virtualenv (recommended)  
 ### #Instalation
 > May you need use "sudo" to run some commnads.  
-With docker installed, run
+
+With [docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-pt) installed, run
 ```
 docker run -d -p 27017:27017 -v --name mongo mongo:latest
 ```
